@@ -1,0 +1,31 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[finnish]{babel}
+\usepackage{amsmath, amssymb}
+\usepackage{tikz}
+\usepackage{float}
+\usepackage{graphicx}
+
+\addto\captionsfinnish{
+    \renewcommand\refname{Lähteet}
+}
+
+\newcommand{\vect}[1]{\boldsymbol{#1}}
+
+\title{Raportti}
+\date{\today}
+\author{Tuomo Lehtonen, Matti Leinonen, Aleksis Vuoksenmaa}
+
+\begin{document}
+
+\maketitle\newpage
+
+\tableofcontents\newpage
+
+\input{tex/introduction}\newpage
+
+\bibliographystyle{plain}
+\bibliography{bib/bibliography}
+
+\end{document}

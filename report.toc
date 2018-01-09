@@ -1,0 +1,4 @@
+\select@language {finnish}
+\contentsline {section}{\numberline {1}Johdanto}{3}
+\contentsline {subsection}{\numberline {1.1}Motivaatio}{3}
+\contentsline {subsection}{\numberline {1.2}Rakenne}{3}
